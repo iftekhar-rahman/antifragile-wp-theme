@@ -212,7 +212,9 @@ textarea {
 	line-height: 1.15;
 	margin: 0;
 }
-
+select, button, button[type=submit], input[type=submit] {
+    cursor: pointer;
+}
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -748,10 +750,6 @@ textarea {
 	display: block;
 }
 
-.post,
-.page {
-	margin: 0 0 1.5em;
-}
 
 .updated:not(.published) {
 	display: none;
